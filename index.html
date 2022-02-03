@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>OutWork Website</title>
+ <link rel="stylesheet" href="web.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" >     
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="web.html"> <img src="images/logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Course</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>OutWork</h1>
+                <p>The body is in your hands to make.</p>
+                <a href=""class="hero-btn">Visit us to know more.</a>
+            </div>
+        </section>
+        <!---------Course--------->
+        <section class="course">
+            <h1>Courses we offer</h1>
+            <p>Let's make it happen.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Advanced</h3>
+                    <p>Join This</p>
+                </div>
+
+                    <div class="course-col">
+                        <h3>Intermediate</h3>
+                        <p>Join This</p>
+                    </div>
+                    
+                        <div class="course-col">
+                            <h3>Beginner</h3>
+                            <p>Join This</p>
+                        </div>
+            </div>
+        </section>
+        <section class="campus">
+            <h1>Choose your type of exercise</h1>
+            <p>Get inspired from others.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="fotowebi/box1.jpg">
+                    <div class="layer"></div>
+                    <h3>Box</h3>
+                </div>
+                <div class="campus-col">
+                    <img src="fotowebi/box2.jpg">
+                    <div class="layer"></div>
+                    <h3>Weights</h3>
+                </div>
+                <div class="campus-col">
+                    <img src="fotowebi/box3.jpg">
+                    <div class="layer"></div>
+                    <h3>Treadmill</h3>
+                </div>
+            </div>
+        </section>
+        <section class="facilities">
+            <h1>Our Difficulty</h1>
+            <p>Choose your type.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                     <img src="fotowebi/pic1.jpg">
+                     <h3>Easy</h3>
+                     <p>Easy work for start.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="fotowebi/pic2.jpg">
+                    <h3>Medium</h3>
+                    <p>We gettin serious now.</p>
+               </div>
+               <div class="facilities-col">
+                <img src="fotowebi/pic3.jpg">
+                <h3>Hard</h3>
+                <p>Let's compite now.</p>
+           </div>
+            </div>
+
+
+        </section>
+
+        <section class="testimonials">
+            <h1>What our gym members say</h1>
+            <p>We gonna do it</p>
+            
+            <div class="row">
+                <div class="testimonial-col">
+            <img src="fotowebi/f1.jpg">
+            <div>
+                <p>I love working out,join me.</p>
+                <h3>Christina Wons</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+            <img src="fotowebi/f2.jpg">
+            <div>
+                <p>I have just started this journey.Be part.</p>
+                <h3>Ben Williams</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                
+                </div>
+            </div>
+            
+</div>
+        </section>
+
+
+
+        <section class="cta">
+            <h1>Enroll for our various gym membership anywhere in the worls</h1>
+            <a href="" class="hero-btn">Contact Us</a>
+
+
+        </section>
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Learn more about us</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+       
+    </div>
+<p>Made by Joni </p>
+</section>
+
+
+
+
+
+        <!---------JavaScript per menune e hapjes dhe mbylljes per telefon.------>
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+
+
+        </script>
+    </body>
+</html>
